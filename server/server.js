@@ -1,5 +1,6 @@
 const puppeteer = require('puppeteer');
 
+
 const main = async () => {
     const url = 'https://www.navyfederal.org/checking-savings/savings/savings-resources/certificate-rates.html';
     const browser = await puppeteer.launch();
@@ -28,8 +29,6 @@ const main = async () => {
     return allArticles;
 
 }
-
-main();
 
 const express = require('express');
 const app = express();
