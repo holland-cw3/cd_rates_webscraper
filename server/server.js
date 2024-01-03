@@ -21,7 +21,7 @@ const main = async () => {
         });
     });
     
-    //sconsole.log(allArticles);
+    //console.log(allArticles);
     //await page.close();
 
     console.log("complete");
@@ -29,7 +29,7 @@ const main = async () => {
 
 }
 
-
+main();
 
 const express = require('express');
 const app = express();
